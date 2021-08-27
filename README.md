@@ -10,5 +10,7 @@ This tutorial is published on **itnext.io** platform.
 
 [Jenkins Tutorial - Part 3 - Parameterized Pipeline](https://itnext.io/jenkins-tutorial-part-3-parameterized-pipeline-3898643ac6ad)
 
+[Jenkins Tutorial - Part 4 - Post Actions](https://itnext.io/jenkins-tutorial-part-4-post-actions-e5d0ef1e3c39)
+
 Saeid Bostandoust <ssbostan@linuxmail.org>
 

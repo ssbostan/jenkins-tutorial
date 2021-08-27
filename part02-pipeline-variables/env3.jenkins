@@ -1,0 +1,14 @@
+pipeline {
+    agent any
+    environment {
+        MYUSERPASS = credentials("test-user-pass")
+    }
+    stages {
+        stage("Test") {
+            steps {
+                sh "echo $MYUSERPASS"
+                sh "logintest --username $MYUSERPASS_USR --password $MYUSERPASS_PSW"
+            }
+        }
+    }
+}

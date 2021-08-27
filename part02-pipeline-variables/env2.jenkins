@@ -1,0 +1,13 @@
+pipeline {
+    agent any
+    environment {
+        SAMPLE_ENV = credentials("simple-secret-text")
+    }
+    stages {
+        stage("Release") {
+            steps {
+                sh "example --secret $SAMPLE_ENV"
+            }
+        }
+    }
+}

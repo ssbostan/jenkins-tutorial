@@ -8,5 +8,7 @@ This tutorial is published on **itnext.io** platform.
 
 [Jenkins Tutorial - Part 2 - Pipeline Variables](https://itnext.io/jenkins-tutorial-part-2-pipeline-variables-5e4783aa2c07)
 
+[Jenkins Tutorial - Part 3 - Parameterized Pipeline](https://itnext.io/jenkins-tutorial-part-3-parameterized-pipeline-3898643ac6ad)
+
 Saeid Bostandoust <ssbostan@linuxmail.org>
 

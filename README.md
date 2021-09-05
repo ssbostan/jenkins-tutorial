@@ -16,6 +16,8 @@ Copyright 2021 Saeid Bostandoust <ssbostan@linuxmail.org>
 
  - [Jenkins Tutorial - Part 4 - Post Actions](https://itnext.io/jenkins-tutorial-part-4-post-actions-e5d0ef1e3c39)
 
+ - [Jenkins Tutorial - Part 5 - When Conditions](https://itnext.io/jenkins-tutorial-part-5-when-conditions-76e61fc8ac0e)
+
 ## Contributions:
 
 All contributions are welcomed. Help me to enrich this repository.

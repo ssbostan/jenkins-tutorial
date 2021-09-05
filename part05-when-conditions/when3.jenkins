@@ -1,0 +1,13 @@
+pipeline {
+    agent any
+    stages {
+        stage("Deploy") {
+            when {
+                buildingTag()
+            }
+            steps {
+                echo "Hello World!"
+            }
+        }
+    }
+}

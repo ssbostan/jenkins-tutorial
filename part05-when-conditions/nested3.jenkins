@@ -1,0 +1,16 @@
+pipeline {
+    agent any
+    stages {
+        stage("NewFeature") {
+            when {
+                anyOf {
+                    branch "feature"
+                    changelog ".*new feature.*"
+                }
+            }
+            steps {
+                echo "Test new feature."
+            }
+        }
+    }
+}

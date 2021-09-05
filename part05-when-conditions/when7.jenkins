@@ -1,0 +1,18 @@
+pipeline {
+    agent any
+    parameters {
+        booleanParam(name: "DEBUG", defaultValue: true)
+    }
+    stages {
+        stage("Test") {
+            when {
+                expression {
+                    return params.DEBUG
+                }
+            }
+            steps {
+                echo "Hello World!"
+            }
+        }
+    }
+}

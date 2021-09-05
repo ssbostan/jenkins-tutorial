@@ -1,0 +1,13 @@
+pipeline {
+    agent any
+    stages {
+        stage("Deploy") {
+            when {
+                tag "release-*"
+            }
+            steps {
+                echo "Deploy to production."
+            }
+        }
+    }
+}

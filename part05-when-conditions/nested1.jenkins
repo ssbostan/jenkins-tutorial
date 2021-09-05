@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+    stages {
+        stage("Test") {
+            when {
+                not {
+                    branch "master"
+                }
+            }
+            steps {
+                echo "Test stage."
+            }
+        }
+    }
+}

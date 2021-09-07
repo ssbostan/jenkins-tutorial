@@ -6,7 +6,9 @@ pipeline {
     stages {
         stage("Release") {
             steps {
-                sh "example --secret $SAMPLE_ENV"
+                // Do not use " for command methods like sh, bat, powershell, pwsh, etc.
+                // Use ' to avoid groovy interpolation and command injection vulnerabilities.
+                sh 'example --secret $SAMPLE_ENV'
             }
         }
     }

@@ -6,8 +6,10 @@ pipeline {
     stages {
         stage("Test") {
             steps {
-                sh "echo $MYUSERPASS"
-                sh "logintest --username $MYUSERPASS_USR --password $MYUSERPASS_PSW"
+                // Do not use " for command methods like sh, bat, powershell, pwsh, etc.
+                // Use ' to avoid groovy interpolation and command injection vulnerabilities.
+                sh 'echo $MYUSERPASS'
+                sh 'logintest --username $MYUSERPASS_USR --password $MYUSERPASS_PSW'
             }
         }
     }

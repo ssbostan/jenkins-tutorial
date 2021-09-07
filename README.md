@@ -1,6 +1,20 @@
 # jenkins-tutorial
 
 ![Visits Badge](https://badges.pufler.dev/visits/ssbostan/jenkins-tutorial)
+![GitHub last commit](https://img.shields.io/github/last-commit/ssbostan/jenkins-tutorial)
+[![GitHub license](https://img.shields.io/github/license/ssbostan/jenkins-tutorial)](https://github.com/ssbostan/jenkins-tutorial/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/ssbostan/jenkins-tutorial)](https://github.com/ssbostan/jenkins-tutorial/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/ssbostan/jenkins-tutorial)](https://github.com/ssbostan/jenkins-tutorial/network)
+[![GitHub issues](https://img.shields.io/github/issues/ssbostan/jenkins-tutorial)](https://github.com/ssbostan/jenkins-tutorial/issues)
+
+<p align="center">
+ <img alt="Jenkins Logo" src="https://www.jenkins.io/images/logo-title-opengraph.png">
+</p>
+
+<p align="center">
+ <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/b9t_ir?style=social">
+ <img alt="LinkedIn Follow" src="https://shields.io/badge/style-ssbostan-black?logo=linkedin&label=LinkedIn&link=https://www.linkedin.com/in/ssbostan">
+</p>
 
 The repository of reference and examples of the Jenkins tutorial series.
 
@@ -22,9 +36,17 @@ Copyright 2021 Saeid Bostandoust <ssbostan@linuxmail.org>
 
 All contributions are welcomed. Help me to enrich this repository.
 
+If you find any **bugs** in the examples, please file an issue.
+
 ### TODO:
 
- - [ ] Adding some real world examples
- - [ ] Adding examples for well-known plugins
- - [ ] Adding example of JCasC
-
+ - [ ] Adding Jenkins Git integration article
+ - [ ] Adding Jenkins essential pipeline commands article
+ - [ ] Adding Jenkins JUnit, Cobertura, and testing article
+ - [ ] Adding Jenkins Docker integration article
+ - [ ] Adding Jenkins Kubernetes, OpenShift integration article
+ - [ ] Adding Jenkins Terraform integration article
+ - [ ] Adding Jenkins Ansible integration article
+ - [ ] Addind Jenkins JCasC (Configuration as Code) article
+ - [ ] Adding Jenkins Prometheus monitoring article
+ - [ ] Adding Jenkins Notification plugins article

@@ -16,6 +16,8 @@
  <img alt="LinkedIn Follow" src="https://shields.io/badge/style-ssbostan-black?logo=linkedin&label=LinkedIn&link=https://www.linkedin.com/in/ssbostan">
 </p>
 
+Stargaze ![GitHub Repo stars](https://img.shields.io/github/stars/ssbostan/jenkins-tutorial?style=social) if you find it useful.
+
 The repository of reference and examples of the Jenkins tutorial series.
 
 Copyright 2021 Saeid Bostandoust <ssbostan@linuxmail.org>

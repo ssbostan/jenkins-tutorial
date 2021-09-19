@@ -1,0 +1,18 @@
+pipeline {
+    agent any
+    options {
+        buildDiscarder logRotator(
+            artifactDaysToKeepStr: "30",
+            artifactNumToKeepStr: "100",
+            daysToKeepStr: "60",
+            numToKeepStr: "200"
+        )
+    }
+    stages {
+        stage("Test") {
+            steps {
+                echo "Hello World!"
+            }
+        }
+    }
+}

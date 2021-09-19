@@ -1,0 +1,30 @@
+pipeline {
+    agent {
+        docker {
+            image "alpine:latest"
+        }
+    }
+    options {
+        buildDiscarder logRotator(artifactDaysToKeepStr: "30", artifactNumToKeepStr: "100", daysToKeepStr: "60", numToKeepStr: "200")
+        checkoutToSubdirectory("mycheckout")
+        copyArtifactPermission("job1,myjob,testjob5")
+        disableConcurrentBuilds()
+        disableResume()
+        durabilityHint("PERFORMANCE_OPTIMIZED")
+        newContainerPerStage()
+        parallelsAlwaysFailFast()
+        preserveStashes()
+        quietPeriod(30)
+        retry(3)
+        skipDefaultCheckout(true)
+        skipStagesAfterUnstable()
+        timeout(time: 300, unit: "SECONDS")
+    }
+    stages {
+        stage("Test") {
+            steps {
+                echo "All options example."
+            }
+        }
+    }
+}

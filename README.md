@@ -34,6 +34,8 @@ Copyright 2021 Saeid Bostandoust <ssbostan@linuxmail.org>
 
  - [Jenkins Tutorial - Part 5 - When Conditions](https://itnext.io/jenkins-tutorial-part-5-when-conditions-76e61fc8ac0e)
 
+ - [Jenkins Tutorial - Part 6 - Pipeline Options](https://itnext.io/jenkins-tutorial-part-6-pipeline-options-5ccd05035aaf)
+
 ## Contributions:
 
 All contributions are welcomed. Help me to enrich this repository.

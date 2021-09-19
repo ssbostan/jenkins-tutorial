@@ -1,0 +1,22 @@
+pipeline {
+    agent {
+        docker {
+            image "alpine:latest"
+        }
+    }
+    options {
+        newContainerPerStage()
+    }
+    stages {
+        stage("Test1") {
+            steps {
+                echo "I'm running in a separate container."
+            }
+        }
+        stage("Test2") {
+            steps {
+                echo "I'm running in a separate container."
+            }
+        }
+    }
+}

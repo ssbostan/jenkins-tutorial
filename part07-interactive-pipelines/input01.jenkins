@@ -1,0 +1,14 @@
+pipeline {
+    agent any
+    stages {
+        stage("Deploy") {
+            input {
+                message "Ready to deploy?"
+                ok "Yes"
+            }
+            steps {
+                echo "Deployment stage."
+            }
+        }
+    }
+}

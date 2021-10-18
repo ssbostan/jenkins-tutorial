@@ -36,6 +36,8 @@ Copyright 2021 Saeid Bostandoust <ssbostan@linuxmail.org>
 
  - [Jenkins Tutorial - Part 6 - Pipeline Options](https://itnext.io/jenkins-tutorial-part-6-pipeline-options-5ccd05035aaf)
 
+ - [Jenkins Tutorial - Part 7 - Interactive Pipelines](https://itnext.io/jenkins-tutorial-part-7-interactive-pipelines-a739b23ac41c)
+
 ## Contributions:
 
 All contributions are welcomed. Help me to enrich this repository.

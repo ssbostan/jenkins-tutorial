@@ -46,13 +46,15 @@ If you find any **bugs** in the examples, please file an issue.
 
 ### TODO:
 
- - [ ] Adding Jenkins Git integration article
- - [ ] Adding Jenkins essential pipeline commands article
- - [ ] Adding Jenkins JUnit, Cobertura, and testing article
- - [ ] Adding Jenkins Docker integration article
- - [ ] Adding Jenkins Kubernetes, OpenShift integration article
- - [ ] Adding Jenkins Terraform integration article
- - [ ] Adding Jenkins Ansible integration article
- - [ ] Addind Jenkins JCasC (Configuration as Code) article
- - [ ] Adding Jenkins Prometheus monitoring article
- - [ ] Adding Jenkins Notification plugins article
+ - [ ] Adding Jenkins pipeline basic concepts tutorial
+ - [ ] Adding Jenkins essential pipeline commands tutorial
+ - [ ] Adding Jenkins groovy language tutorial
+ - [ ] Adding Jenkins Git and GitHub integration tutorial
+ - [ ] Adding Jenkins JUnit, Cobertura, and testing tutorial
+ - [ ] Adding Jenkins Docker integration tutorial
+ - [ ] Adding Jenkins Kubernetes, OpenShift integration tutorial
+ - [ ] Adding Jenkins Terraform integration tutorial
+ - [ ] Adding Jenkins Ansible integration tutorial
+ - [ ] Addind Jenkins JCasC (Configuration as Code) tutorial
+ - [ ] Adding Jenkins Prometheus monitoring tutorial
+ - [ ] Adding Jenkins Notification plugins tutorial

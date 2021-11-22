@@ -38,6 +38,8 @@ Copyright 2021 Saeid Bostandoust <ssbostan@linuxmail.org>
 
  - [Jenkins Tutorial - Part 7 - Interactive Pipelines](https://itnext.io/jenkins-tutorial-part-7-interactive-pipelines-a739b23ac41c)
 
+ - [Jenkins Tutorial - Part 8 - Triggering Pipeline](https://itnext.io/jenkins-tutorial-part-8-triggering-pipeline-d53dbba539d6)
+
 ## Contributions:
 
 All contributions are welcomed. Help me to enrich this repository.

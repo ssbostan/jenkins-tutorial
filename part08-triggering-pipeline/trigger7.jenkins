@@ -1,0 +1,19 @@
+pipeline {
+    agent any
+    triggers {
+        pollSCM "H/10 * * * *"
+        cron "H * * * *"
+        upstream "my-base-project"
+        GenericTrigger(
+            causeString: "Triggered from Webhook",
+            token: "unique-token-to-start-the-current-pipeline"
+        )
+    }
+    stages {
+        stage("Test") {
+            steps {
+                echo "Hello World!"
+            }
+        }
+    }
+}

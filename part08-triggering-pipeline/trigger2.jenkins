@@ -1,0 +1,20 @@
+pipeline {
+    agent any
+    triggers {
+        cron "H H * * *"
+        // cron "* * * * *"
+        // cron "0 * * * *"
+        // cron "0 0 * * *"
+        // cron "0 0 * 2,4,6,8,10,12 *"
+        // cron "* 1-7 * * *"
+        // cron "*/10 * * * *"
+        // cron "H H(0-4) * * *"
+    }
+    stages {
+        stage("Test") {
+            steps {
+                echo "Hello World!"
+            }
+        }
+    }
+}

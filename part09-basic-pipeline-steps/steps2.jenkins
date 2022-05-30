@@ -1,0 +1,16 @@
+pipeline {
+    agent any
+    stages {
+        stage("Test") {
+            steps {
+                dir("sample") {
+                    echo pwd()
+                }
+                dir(pwd(tmp: true)) {
+                    echo "Inside the job tmp directory."
+                    echo pwd()
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+    stages {
+        stage("Test") {
+            steps {
+                script {
+                    if (fileExists("sample")) {
+                        echo "sample is found."
+                        echo readFile("sample")
+                        // echo readFile(file: "sample", encoding: "Base64")
+                    }
+                    else {
+                        echo "sample is not found."
+                        writeFile(file: "sample", text: "Hello Jenkins!")
+                        // writeFile(file: "sample", text: "base64 encoded binary data", encoding: "Base64")
+                    }
+                }
+            }
+        }
+    }
+}

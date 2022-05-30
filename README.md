@@ -40,6 +40,8 @@ Copyright 2021 Saeid Bostandoust <ssbostan@linuxmail.org>
 
  - [Jenkins Tutorial - Part 8 - Triggering Pipeline](https://itnext.io/jenkins-tutorial-part-8-triggering-pipeline-d53dbba539d6)
 
+ - [Jenkins Tutorial - Part 9 - Basic Pipeline Steps](https://itnext.io/jenkins-tutorial-part-9-basic-pipeline-steps-eeb1b9ed79f8)
+
 ## Contributions:
 
 All contributions are welcomed. Help me to enrich this repository.

@@ -1,6 +1,5 @@
 # jenkins-tutorial
 
-![Visits Badge](https://badges.pufler.dev/visits/ssbostan/jenkins-tutorial)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ssbostan/jenkins-tutorial)
 [![GitHub license](https://img.shields.io/github/license/ssbostan/jenkins-tutorial)](https://github.com/ssbostan/jenkins-tutorial/blob/master/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/ssbostan/jenkins-tutorial)](https://github.com/ssbostan/jenkins-tutorial/stargazers)
@@ -8,11 +7,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/ssbostan/jenkins-tutorial)](https://github.com/ssbostan/jenkins-tutorial/issues)
 
 <p align="center">
- <img alt="Jenkins Logo" src="https://www.jenkins.io/images/logo-title-opengraph.png">
-</p>
-
-<p align="center">
- <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/b9t_ir?style=social">
+ <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/saeidbostan?style=social">
  <img alt="LinkedIn Follow" src="https://shields.io/badge/style-ssbostan-black?logo=linkedin&label=LinkedIn&link=https://www.linkedin.com/in/ssbostan">
 </p>
 

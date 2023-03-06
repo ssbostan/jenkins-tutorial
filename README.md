@@ -37,6 +37,8 @@ Copyright 2021 Saeid Bostandoust <ssbostan@linuxmail.org>
 
  - [Jenkins Tutorial - Part 9 - Basic Pipeline Steps](https://itnext.io/jenkins-tutorial-part-9-basic-pipeline-steps-eeb1b9ed79f8)
 
+ - [Jenkins Tutorial - Part 10 - Work with Git in Pipeline](https://itnext.io/jenkins-tutorial-part-10-work-with-git-in-pipeline-b5e42f6d124b)
+
 ## Contributions:
 
 All contributions are welcomed. Help me to enrich this repository.
